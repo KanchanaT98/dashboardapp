@@ -1,25 +1,37 @@
-.body{
+.header-body{
+    position: relative;
+    top: 0;
+    left: 0;
     display: flex;
-    
-    background-color: rgb(240, 235, 235);
+    width: 100%;
+    height: fit-content;
+}
+
+.header-RDB-logo{
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    display: flex;
+    width: fit-content;
+}
+
+.header-Novus-logo{
+    position: absolute;
+    left: 4px;
+    top: 2px;
+    display: flex;
+
 }
 
 #rdb-logo-img{
     height: 40px;
-    width: 150px;
-    display: flex;
-    position: fixed;
-    right: 5px;
-    top: 2px;
+    width: 160px;
 
 }
 
 #novus-logo-img{
     height: 40px;
     width: 150px;
-    display: flex;
-    position: fixed;
-    left: 5px;
-    top: 4px;
+    
 }
 

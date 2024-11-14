@@ -10,11 +10,11 @@ import './InfoBox.css'
 
 const InfoBox = () =>{
     return(
-        <div className='body'>
+        <div className='infobox-body'>
             <div className='info-box'>
                 <div className='info-box-critical-terminal'>
-                    <div><h4 id='info-box-critical-terminal-heading'>Critical Terminal</h4></div>
-                    <div><p id='info-box-critical-terminal-data'><b>5</b></p></div>
+                    <h4 id='info-box-critical-terminal-heading'>Critical Terminal</h4>
+                    <p id='info-box-critical-terminal-data'><b>5</b></p>
                 </div>
                 <div className='info-box-fullyFunctional-terminal'>
                     <h4 id='info-box-fullyFunctional-terminal-data'>Fully Functional Terminals 45</h4>

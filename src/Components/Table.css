@@ -1,0 +1,68 @@
+.Table-body{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+  }
+  
+  
+  .table-body :hover {
+    background-color: #f3eeee;
+    
+  }
+  
+  
+  .table {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    width: 90%;
+    border-radius: 10px;
+  }
+  
+  .table-body {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+  
+  .header-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+  }
+  
+  .table-row {
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #d8d5d5; /* Optional: add border for separation */
+    width: 100%;
+    align-items: center;
+  }
+  
+  .header-item, .table-item {
+    flex: 1; /* Distribute space evenly */
+    padding: 5px 10px; /* Add some padding */
+    text-align: left;
+  }
+  
+  .table-header{
+    font-weight: bold; /* Make header bold */ 
+    text-align: left;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    padding: 5px;
+  }
+  

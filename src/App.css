@@ -1,4 +1,24 @@
 .App {
-  background-color: rgba(187, 183, 183, 0.616);
+  width: fit-content;
+  height: fit-content;
 }
 
+.app-header{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  background-color: aqua;
+}
+
+.app-infoBox{
+  position: absolute;
+  top: 90px;
+  right: 30px
+ 
+}
+
+.app-table{
+  position: absolute;
+  top: 500px;
+  width: 100%;
+}
