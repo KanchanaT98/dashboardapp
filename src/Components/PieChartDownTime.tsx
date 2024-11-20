@@ -11,7 +11,7 @@ interface PieChartDownTimeProps{
 const PieChartDownTime: React.FC<PieChartDownTimeProps> = ({criticalTickets, nonCriticalTickets}) => {
     
     const data: ChartData<'pie'> = {
-        labels: ['Critical Tickets', 'Non-Critical Tickets'],
+        labels: ['Critical', 'Non-Critical'],
         datasets: [
             {
                 data : [criticalTickets, nonCriticalTickets],

@@ -1,5 +1,51 @@
+
+.barchart1{
+    position: absolute;
+    top: 0px;
+    width: max-content;
+}
+
+.piechart1{
+    position: absolute;
+    top: 0px;
+    left: 370px;
+    width: max-content;
+
+}
+
 .piechart2{
     position: absolute;
     top: 0;
     left: 700px;
+    width: max-content;
+}
+
+#BarChart-text1{
+    position: relative;
+    top: 280px;
+    left: 70px;
+    font-size: small;
+
+}
+
+#BarChart-text2{
+    position: relative;
+    top: 280px;
+    left: 70px;
+    font-size: small;
+
+}
+
+#pieChart-text1{
+    position: relative;
+    top: 20px;
+    left: 70px;
+    font-size: small;
+}
+
+#pieChart2-text{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    font-size: small;
 }

@@ -5,22 +5,22 @@ import { ChartData, ChartOptions } from 'chart.js';
 
 
 interface BarChartProps {
-    faultyCount: number;
-    workingCount: number;
+    data: number[];
+    labels: string[];
 }
 
-const BarChart: React.FC<BarChartProps> = ({ faultyCount, workingCount }) => {
-    const data: ChartData<'bar'> = {
-        labels: ['ATM', 'CDM', 'CRM', 'Kiosk'],
+const BarChart: React.FC<BarChartProps> = ({ data = [], labels = [] }) => {
+    const chartData: ChartData<'bar'> = {
+        labels: labels,
         datasets: [
             {
-                label: 'Faulty',
-                data: [faultyCount, 0, 0, 0],
+                label: 'Working',
+                data: data.map((d) => d),
                 backgroundColor: 'rgba(255, 99, 132, 1)',
               },
               {
-                label: 'Working',
-                data: [workingCount, 0, 0, 0],
+                label: 'Faulty',
+                data: [5, 0, 0, 0],
                 backgroundColor: 'rgba(54, 162, 230, 1)',
               },
         ],
@@ -47,7 +47,7 @@ const BarChart: React.FC<BarChartProps> = ({ faultyCount, workingCount }) => {
         },
       };  
 
-    return <div className='bar-chart'><Bar data={data} options={options}/></div>;
+    return <div className='bar-chart'><Bar data={chartData} options={options}/></div>;
 };
 
 export default BarChart;

@@ -1,6 +1,4 @@
 .App-body {
-  width: fit-content;
-  height: fit-content;
   background-color: black;
 }
 
@@ -14,7 +12,8 @@
 .app-infoBox{
   position: absolute;
   top: 60px;
-  right: 30px
+  right: 30px;
+  background-color: white;
  
 }
 
@@ -22,13 +21,15 @@
   position: absolute;
   top: 470px;
   width: 100%;
+  background-color: white;
 }
 
 .chart-box{
   position: absolute;
   display: flex;
-  top: 100px;
+  top: 80px;
   width: fit-content;
   height: fit-content;
+  background-color: white;
   
 }
